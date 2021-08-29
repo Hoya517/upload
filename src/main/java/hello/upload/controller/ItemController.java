@@ -30,7 +30,7 @@ public class ItemController {
     private final FileStore fileStore;
 
     @GetMapping("/items/new")
-    public String newItem(@ModelAttribute ItemForm fOrm) {
+    public String newItem(@ModelAttribute ItemForm form) {
         return "item-form";
     }
 
